@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="tp-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>imng de fundo</title>
+    <title>brincando</title>
 </head>
 <style>
-    div.quadrado
+    body
     {
-        display: inline-block;
-        border: 1px solid black;
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;
-        background-color: rgb(139, 139, 139);
+        background-image: url("imagens/wallpaper002.jpg");
     }
 
-    div#q1
+    h1
     {
-        background-color: aquamarine;
+        color: white;
+       text-align: center;
+       font-size: 2em;
+       border: 1PX solid white;
+       padding: 20PX 1PX 20PX 1PX;
+       margin: 30PX 1PX 1PX 1PX;
+
     }
 
-    div#q2
+    nav
     {
-        background-image: linear-gradient(to bottom, rgb(255, 102, 0), red );
+        padding: 14PX 5PX 13PX 0PX;
+        text-align: center;
     }
 
-    div#q3
-    {
-        background-image: url("imagens/pattern003.png");
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 0PX 20PX 0PX 20PX;
+
     }
 
+    nav > a:hover
+    {
+        background-color: rgba(255, 255, 255, 0.192);
+        border-radius: 5px;
+        transition-duration: 0.7s;
+        color: black;
+    }
 
+    main{
+        min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 17px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    }
 </style>
+
 <body>
+
+    <h1>PRIMEIRO SITE USANDO IMG DE FUNDO</h1>
+
+    <NAV>
+        <a href="#">CURIOSIDADES</a>
+            <a href="#">SOBRE</a>
+            <a href="#">VIGENS</a>
+            <a href="#">INTERESSE</a>
+        </NAV>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis, assumenda molestias nam a facilis, provident cupiditate dolores accusamus aliquid quaerat sunt doloremque, enim facere minima libero officiis voluptate? Consequuntur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis, assumenda molestias nam a facilis, provident cupiditate dolores accusamus aliquid quaerat sunt doloremque, enim facere minima libero officiis voluptate? Consequuntur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis, assumenda molestias nam a facilis, provident cupiditate dolores accusamus aliquid quaerat sunt doloremque, enim facere minima libero officiis voluptate? Consequuntur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis, assumenda molestias nam a facilis, provident cupiditate dolores accusamus aliquid quaerat sunt doloremque, enim facere minima libero officiis voluptate? Consequuntur!</p>
+    </main>
    
-    <div class="quadrado" id="q1" ></div>
-    <div class="quadrado" id="q2" ></div>
-    <div class="quadrado" id="q3"></div>
 </body>
+
 </html>
