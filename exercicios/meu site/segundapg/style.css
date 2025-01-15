@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*segunda pagina*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+@font-face {
+    font-family: "love";
+    src: url(../unispace/Unispace\ Bd.otf) format("opentype"), url() format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+ /*no html é a tela de fundo, o hed nain e footer esta no meio da tela nas conf de "body" logo abaixo*/
+ html
+{
+    background-image: linear-gradient(to top, rgb(75, 85, 79), rgb(255, 255, 255));
+    height: 100vh;
+    width: 100vw;
+}
+
+/* aqui estão as configurações no meio da tela, header main footer*/
+body
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to top, rgb(51, 218, 115), rgb(255, 255, 255));
+
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header
+{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+header > a.zap
+{
+    margin: 1px 1px 1px 1px;
+    padding: 0px 0px;
+    color: #00cc1b;
+    
+}
+.paragrafozap
+{
+    text-align: center;
+    margin-right: 10%;
+}
+
+
+header > a > img
+{
+    float: right;
+    margin-top: -26px;
+    margin-right: 8px;
+    background-position: center center;
+}
+
+header > nav
+{
+    
+    text-align: center;
+    
+}
+header > nav a.botao
+{
+    display: block;
+    text-align: left;
+    margin: 5px 0px -15px 10%;
+    color: #000000;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    background-color: rgb(255, 255, 255);
+}
+
+footer
+{
+    background-color: rgb(83, 83, 83);
+}
+
+h1{
+    color: #fae7c4;
+    background-color: rgba(25, 37, 48, 0.753);
+    margin: -1px -2px -18px -2px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'love', Times, serif ;
+    font-size:  1.5em ;
+    
+    
+}
+/*FAZENDO MEIO*/
+main
+{
+   
+    padding: 0px;
+}
+main > nav
+{
+    padding-top: 4px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 4px;
+    display: flex;
+    background-color: rgba(25, 37, 48, 0.753);
+}
+.botAnimacao:hover
+{
+    margin-top: -2px;
+    transition: .2s;
+}
+main > nav > a 
+{
+    background-color: rgba(25, 37, 48, 0.753);
+    border: 1px solid black;
+    margin-right: 2px;
+    font-size: .6em;
+    padding-top: 8px;
+    padding-right: 3px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+    font-family: 'love', Times, serif ;
+    color: #fae7c4;
+}
+
+main > nav > a:hover
+{
+    background-color: rgba(41, 52, 63, 0.753) ;
+    color: rgba(162, 180, 199, 0.753);
+}
