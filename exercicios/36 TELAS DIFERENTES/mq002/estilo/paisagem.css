@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* orientação para paisagem*/
+
+html, body{
+   background-image: url(../imagenspst002/cev-landscape.jpg);
+}

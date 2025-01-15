@@ -1,10 +1,6 @@
 @charset "utf-8";
 
-.mary{
-    
-    color: blue;
-    
-}
+
 
 {
     background-color: rgba(172, 172, 172, 0.5);
@@ -36,13 +32,6 @@ nav
     padding: 0px 200px 0px 0px;
     margin:-40px -40px 0px -13px;
     text-align: center;
-}
-
-nav > a:hover
-{
-    color: rgba(255, 0, 0, 0.356);
-    
-    
 }
 
 img

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tela e impressora</title>
+</head>
+<style>
+  /*fonf geral*/
+  *
+      {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      html, body 
+      {
+          width:100vw ;
+          right: 100vh;
+          background-color: rgb(36, 36, 228);
+      }
+
+      h1
+      {
+          color: white ;
+          text-shadow: 2px 3px opx blue;
+          padding: 10px;
+      }
+
+  /*confi paisagem*/
+     @media screen and (orientation: portrait)
+    {
+      body html
+        {
+        background-image: url(../MQ003/imagenspst002/cev-portrait.jpg);   
+        background: center bottom;
+        }
+    }
+  /*confo retrato*/
+      @media screen and (orientation: landscape)
+      {
+        body 
+        {
+          background-image: url(../MQ003/imagenspst002/cev-landscape.jpg);   
+          background: center bottom;
+        }
+      }
+
+</style>
+<body>
+  <h1>Mude a orienteção do seu dispositivo</h1>
+</body>
+</html>

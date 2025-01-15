@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*configurção para tudos*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body 
+{
+    width:100vw ;
+    right: 100vh;
+    background-color: rgb(36, 36, 228);
+}
+
+h1
+{
+    color: white ;
+    text-shadow: 2px 3px opx blue;
+    padding: 10px;
+}
