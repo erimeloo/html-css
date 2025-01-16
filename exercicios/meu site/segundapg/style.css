@@ -33,8 +33,8 @@ body
     transform: translate(-50%, -50%);
     background-image: linear-gradient(to top, rgb(51, 218, 115), rgb(255, 255, 255));
 
-    width: 250px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     border-radius: 25px;
     box-shadow: 0px 0px 10px black;
 }
@@ -46,28 +46,24 @@ header
     margin-bottom: 1px;
     margin-left: 1px;
     margin-right: 1px;
-    border-radius: 20px 20px 0px 0px;
-    
 }
 header > a.zap
 {
-    margin: 1px 1px 1px 1px;
-    padding: 0px 0px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: #00cc1b;
     
 }
-.paragrafozap
-{
-    text-align: center;
-    margin-right: 10%;
-}
-
-
-header > a > img
-{
+img 
+{ 
+    padding-left: 1px;
+    display: block;
     float: right;
-    margin-top: -26px;
-    margin-right: 8px;
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-right: 1px;
     background-position: center center;
 }
 
@@ -80,12 +76,10 @@ header > nav
 header > nav a.botao
 {
     display: block;
-    text-align: left;
-    margin: 5px 0px -15px 10%;
+    text-align: center;
     color: #000000;
     
 }
-
 a
 {
     text-decoration: none;
@@ -94,6 +88,7 @@ a
 
 main
 {
+    text-align: center;
     background-color: rgb(255, 255, 255);
 }
 
@@ -106,27 +101,25 @@ h1{
     color: #fae7c4;
     background-color: rgba(25, 37, 48, 0.753);
     margin: -1px -2px -18px -2px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 10px;
+    padding: 40px;
     text-align: center;
     font-family: 'love', Times, serif ;
     font-size:  1.5em ;
-    
-    
 }
 /*FAZENDO MEIO*/
 main
 {
-   
-    padding: 0px;
+   text-align: center;
 }
 main > nav
 {
-    padding-top: 4px;
-    padding-bottom: 1px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 4px;
-    display: flex;
+    box-shadow: 0px 0px 10px black;
+   /*itrando o display caso mudar rever display: flex; */
     background-color: rgba(25, 37, 48, 0.753);
 }
 .botAnimacao:hover
@@ -136,14 +129,15 @@ main > nav
 }
 main > nav > a 
 {
+   
     background-color: rgba(25, 37, 48, 0.753);
     border: 1px solid black;
     margin-right: 2px;
-    font-size: .6em;
+    font-size: 1em;
     padding-top: 8px;
     padding-right: 3px;
     padding-left: 2px;
-    padding-bottom: 1px;
+    padding-bottom: 8px;
     border-radius: 3px;
     font-family: 'love', Times, serif ;
     color: #fae7c4;
@@ -153,4 +147,76 @@ main > nav > a:hover
 {
     background-color: rgba(41, 52, 63, 0.753) ;
     color: rgba(162, 180, 199, 0.753);
+}
+
+main > h2
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3em;
+    padding: 0px 10px;
+    color: #344e50;
+    font-family: 'love', Times, serif ;
+    text-shadow:  1px 1px rgba(0, 0, 0, 0.164);
+}
+.erik
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.erik > a#erik1
+{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(0, 255, 170);
+    border-radius: 100%;
+    background-color: rgba(0, 255, 170, 0.253);
+}
+.erik > a#erik1:hover
+{
+    padding: 25px;
+    transition: .2s;
+}
+
+.imgIcon
+{
+    padding-left: 1px;
+    display: block;
+    float: right;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-position: center center;
+}
+.siteProficional
+{
+    padding: 0px 36px;
+}
+footer
+{
+    margin-top: 10px;
+    background-color: #344e50;
+    
+}
+footer > h2
+{
+    padding: 1px;
+    text-align: center;
+    color: #fae7c4 ;
+}
+footer > nav 
+{
+    background-color: #344e50;
+    text-align: center;
+    color: #fae7c4;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+footer > nav > a 
+{
+    color: #fae7c4;
 }

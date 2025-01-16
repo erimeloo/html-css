@@ -15,7 +15,6 @@
     font-style: normal;
   }
 
-
 body, html
 {
     background-image: linear-gradient(to top, rgb(163, 228, 188), rgb(255, 255, 255));
@@ -39,18 +38,18 @@ header
     transform: translate(-50%, -50%);
     background-color: rgb(128, 117, 117);
 
-    width: 250px;
-    height: 500px;
-    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
     box-shadow: 0px 0px 10px black;
 }
 
 h1{
     color: #fae7c4;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-family: 'love', Times, serif ;
-    font-size:  1.5em ;
+    font-size:  2em ;
     
 }
 header > nav
@@ -90,7 +89,7 @@ h2{
     text-align: center;
     color: #fae7c4;
     font-family: 'love', Times, serif ;
-    font-size:  1em ;
+    font-size:  1.5em ;
 }
 
 p
@@ -129,5 +128,15 @@ a.entrar:hover
     color: black;
     transition: .5s;
 }
-
-
+.final
+{
+    background-color: rgba(25, 37, 48, 0.753);
+    padding-top: 4px;
+    margin-top: 122px;
+    color: aliceblue;
+}
+.final > a
+{
+    text-decoration: none;
+    color: #fae7c4;
+}
