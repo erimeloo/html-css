@@ -128,15 +128,3 @@ a.entrar:hover
     color: black;
     transition: .5s;
 }
-.final
-{
-    background-color: rgba(25, 37, 48, 0.753);
-    padding-top: 4px;
-    margin-top: 122px;
-    color: aliceblue;
-}
-.final > a
-{
-    text-decoration: none;
-    color: #fae7c4;
-}
