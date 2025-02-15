@@ -126,7 +126,7 @@ main > nav
     padding-right: 4px;
     box-shadow: 0px 0px 10px black;
     display: flex;
-    background-color: rgba(25, 37, 48, 0.753);
+    background-color: #344e50;
 }
 
 .botAnimacao:hover
@@ -205,9 +205,9 @@ main > h2
     display: inline-block;
     padding: 20px;
     margin-top: 10px;
-    border: 1px solid rgb(0, 255, 170);
+    border: 1px solid rgb(174, 255, 227);
     border-radius: 100%;
-    background-color: rgba(0, 255, 170, 0.253);
+    background-image: linear-gradient(to top, rgb(89, 160, 118), rgb(255, 255, 255));
 }
 .erik > a#erik1:hover
 {
