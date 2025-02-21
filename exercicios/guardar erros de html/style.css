@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+
 /*paginas de exe´plo para cliente*/
 *{
   font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +48,7 @@ div > nav > a:hover
 header
 {
   padding-top: 2px;
-  background-image: url(imagem/undefined_image.png);
+  background-image: url(../imagem/undefined_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -192,6 +194,3 @@ footer > div > p
   color: antiquewhite;
   background-color: #000000;
 }
-
-  
-   

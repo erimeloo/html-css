@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*Pagina para colocar os outros exemplos*/
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+@font-face {
+  font-family: "love";
+  src: url(../unispace/Unispace\ Bd.otf) format("opentype"), url() format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav 
+{
+    
+    background-color: rgb(45, 58, 175);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+    
+}
+nav > a{
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-size: .6em;
+  margin: 1px;
+}
+div > nav > a:hover
+{
+  background-color: rgb(255, 118, 38);
+  color: rgb(255, 255, 255);
+  transition: .5s;
+}
+.log
+{
+  margin-left: 1px
+}
+header
+{
+  padding-top: 2px;
+  background-image: url(../imagem/undefined_image.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 370px;
+  padding-left: 20px;
+  box-shadow: 0px 0px 30px black;
+}
+header > h1
+{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+  overflow: hidden;
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.527);
+
+  font-family: 'love', Times, serif;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(105, 97, 97, 0.438);
+  color: white;
+  text-align: center;
+  height: 17vh;
+  width: 80vw;
+  border-radius: 2px;
+}
+header > div
+{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  margin-top: 10px;
+  border-radius: 2px;
+  background-color: rgba(105, 97, 97, 0.438);
+  text-align: left;
+  padding-top: 10px;
+  color: white;
+  height: 12vh;
+  width: 80vw;
+  text-align: justify;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.452);
+}
+button
+{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  margin-top: 18px;
+  padding-top: 10px;
+  color: white;
+  background-color: rgb(255, 118, 38);
+  display: flex;
+  border-radius: 5px;
+  padding: 5px 10px ;
+}
+
+/*fezendo meio*/
+
+main > h1
+{
+  font-family: 'love', Times, serif;
+  padding-top: 20px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.527);
+}
+.imgx
+{
+    background-image: url(imagem/Exemplo\ 1.png);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    min-height: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 261px;
+    max-width: 261px;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+a
+{
+  text-decoration: none;
+}
+main > .ParagrafoModelo
+{
+ margin-top: 20px;
+ padding-bottom: 10px;
+}
+.linkentrar
+{
+  background-color: rgb(255, 118, 38) ;
+  color: white;
+  border: 1px solid black;
+  padding: 1px 125px 1px 90px;
+  border-radius: 5px;
+  margin-top: 0px;
+}

@@ -1,5 +1,7 @@
 @charset "utf-8";
-/*Pagina para colocar os outros exemplos*/
+
+
+/*paginas de exe´plo para cliente*/
 *{
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
@@ -9,7 +11,7 @@
 }
 @font-face {
   font-family: "love";
-  src: url(../unispace/Unispace\ Bd.otf) format("opentype"), url() format("truetype");
+  src: url(../unispace/Unispace\ Bd.otf format("opentype"), url() format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -46,7 +48,7 @@ div > nav > a:hover
 header
 {
   padding-top: 2px;
-  background-image: url(imagem/undefined_image.png);
+  background-image: url(../imagem/undefined_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -109,48 +111,86 @@ button
   border-radius: 5px;
   padding: 5px 10px ;
 }
-
-/*fezendo meio*/
-
-main > h1
+footer
 {
-  font-family: 'love', Times, serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+footer > h2
+{
   padding-top: 20px;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.527);
+  
 }
-.imgx
+footer > p 
 {
-    background-image: url(imagem/Exemplo\ 1.png);
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    min-height: 50%;
-    transform: translate(-50%, -50%);
+  
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
 
-    min-width: 261px;
-    max-width: 261px;
+h3{
+  
+  display: inline-block;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 62px ;
+  
+  
+  
+  
+}
+.imgcomputador
+{
+  padding-left: 1px;
+  display: block;
+  float: left;
+  margin-top: -23px;
+  margin-left: -60px;
+  margin-right: 1px;
+  background-position: center center;
+  
+}
+footer > div{
+  background-image: linear-gradient(to right, rgba(97, 119, 216, 0.349) 2%, rgba(255, 171, 45, 0.322)); 
+  margin-top: 10px;
+  margin-left: 10%;    
+  margin-right: 10%;
+  
+  border-radius: 20px;
+  /*max-width: 300px;*/
+}
+
+footer > div > p 
+{
+  padding: 10px;
+}
+
+.imginsta {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;}
+
+  .imginsta1 
     
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-   
+{
+  padding-left: 1px;
+  display: block;
+  float: left;
+  margin-top: -11px;
+  margin-left: 5px;
+  margin-right: 1px;
+  background-position: center center;
 }
 
-a
+.final
 {
-  text-decoration: none;
-}
-main > .ParagrafoModelo
-{
- margin-top: 20px;
- padding-bottom: 10px;
-}
-.linkentrar
-{
-  background-color: rgb(255, 118, 38) ;
-  color: white;
-  border: 1px solid black;
-  padding: 1px 125px 1px 90px;
-  border-radius: 5px;
-  margin-top: 0px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  color: antiquewhite;
+  background-color: #000000;
 }
