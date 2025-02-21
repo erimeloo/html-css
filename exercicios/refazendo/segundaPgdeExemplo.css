@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*segunda pagina de e=teste*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html
+{
+    background-image: linear-gradient(to top, rgb(58, 58, 58), rgb(255, 255, 255));
+    height: 100vh;
+    width: 100vw;
+}
+
+header
+{
+    padding-top: 2px;
+    background-image: url(imagem/pexels-sebastian-palomino-933481-1955134.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 20px;
+    box-shadow: 0px 0px 30px black;
+} 
+
+header > h1 
+{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+nav{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+a
+{
+    text-decoration: none;
+    padding: 5px 5px 5px 5px ;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+
+header > p 
+{
+    margin-top: 60px;
+   color: white;
+    text-align: center;
+}
+
+footer
+{
+    padding: 0px;
+}

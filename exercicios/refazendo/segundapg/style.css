@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+/*segunda pagina*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+@font-face {
+    font-family: "love";
+    src: url(../unispace/Unispace\ Bd.otf) format("opentype"), url() format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+ /*no html é a tela de fundo, o hed nain e footer esta no meio da tela nas conf de "body" logo abaixo*/
+ html
+{
+    background-image: linear-gradient(to top, rgb(75, 85, 79), rgb(255, 255, 255));
+    height: 100vh;
+    width: 100vw;
+}
+
+/* aqui estão as configurações no meio da tela, header main footer*/
+body
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to top, rgb(51, 218, 115), rgb(255, 255, 255));
+
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+header
+{
+    background-image: url(../imagem/da2e2a717690796bc6d7dbda03d7da7b_high.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+header > a.zap
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: #00cc1b;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+}
+img 
+{ 
+    padding-left: 1px;
+    display: block;
+    float: right;
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-right: 1px;
+    background-position: center center;
+}
+
+header > nav
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    
+}
+header > nav a.botao
+{
+    display: block;
+    text-align: center;
+    color: #fae7c4;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+footer
+{
+    background-color: rgb(83, 83, 83);
+}
+
+h1{
+    text-shadow: 4px 2px rgb(0, 0, 0);
+    color: #fae7c4;
+    margin: -1px -2px -18px -2px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'love', Times, serif ;
+    font-size:  1.5em ;
+}
+/*FAZENDO MEIO*/
+main
+{
+   text-align: center;
+}
+main > nav
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 4px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    background-color: #344e50;
+}
+
+.botAnimacao:hover
+{
+    margin-top: -2px;
+    transition: .2s;
+}
+
+main > nav > a 
+{
+   
+    background-color: rgba(25, 37, 48, 0.753);
+    border: 1px solid black;
+    margin-right: 2px;
+    font-size: .6em;
+    padding-top: 8px;
+    padding-right: 3px;
+    padding-left: 2px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    font-family: 'love', Times, serif ;
+    color: #fae7c4;
+}
+
+main > nav > a:hover
+{
+    background-color: rgba(41, 52, 63, 0.753) ;
+    color: rgba(162, 180, 199, 0.753);
+}
+.img2
+{
+    
+   width: 100vh;
+   height: 100vw;
+    background-image: url(../imagem/pexels-kevin-ku-92347-577585.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.imginsta
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    
+}
+.imginsta1{
+    padding-left: 1px;
+    display: block;
+    float: left;
+    margin-top: -11px;
+    margin-left: 5px;
+    margin-right: 1px;
+    background-position: center center;
+}
+main > h2
+{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    padding: 0px 10px;
+    color: #344e50;
+    font-family: 'love', Times, serif ;
+    text-shadow:  1px 1px rgba(0, 0, 0, 0.164);
+}
+.erik
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.erik > a#erik1
+{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(174, 255, 227);
+    border-radius: 100%;
+    background-image: linear-gradient(to top, rgb(89, 160, 118), rgb(255, 255, 255));
+}
+.erik > a#erik1:hover
+{
+    padding: 25px;
+    transition: .2s;
+}
+
+.imgIcon
+{
+    padding-left: 1px;
+    display: block;
+    float: right;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-position: center center;
+}
+.siteProficional
+{
+    padding: 0px 36px;
+}
+footer
+{
+    margin-top: 10px;
+    background-color: #344e50;
+    
+}
+footer > h2
+{
+    padding: 1px;
+    text-align: center;
+    color: #fae7c4 ;
+}
+footer > nav 
+{
+    background-color: #344e50;
+    text-align: center;
+    color: #fae7c4;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+footer > nav > a 
+{
+    color: #fae7c4;
+}
+.finall
+{
+    background-color: #000000;
+    color: aliceblue;
+}
